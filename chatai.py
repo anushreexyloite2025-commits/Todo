@@ -8,8 +8,8 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, PointStruct
 import requests
 
-QDRANT_URL = "https://8bc6e12d-1b56-4cd3-9864-f2d491cddb81.us-east4-0.gcp.cloud.qdrant.io:6333"    # 🔑 Replace with your Qdrant cluster URL
-QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.yJd0ywvQfh4pJfbWfjN0BBLtsz7dcF6vw21y2odZwzI"          # 🔑 Replace with your Qdrant key
+QDRANT_URL = ""    # 🔑 Replace with your Qdrant cluster URL
+QDRANT_API_KEY = ""          # 🔑 Replace with your Qdrant key
 COLLECTION_NAME = "rag_demo"
 
 
